@@ -16,10 +16,16 @@ It organizes changes into clean commits, helps resolve merge conflicts, and supp
 </div>
 
 ## Install
-- macOS/Linux: `./install-ageit.sh`
-- Windows (PowerShell): `./install-ageit.ps1`
+- macOS/Linux:
+  ```
+  curl -fsSL https://raw.githubusercontent.com/BackGwa/Ageit/main/install.sh | bash
+  ```
+- Windows (PowerShell):
+  ```
+  irm https://raw.githubusercontent.com/BackGwa/Ageit/main/install.ps1 | iex
+  ```
 
-> This installs `agents/Ageit.md` to your local OpenCode agent directory.
+> This installs `agents/Ageit.md` and command files to your local OpenCode directories.
 
 <br>
 
